@@ -26,7 +26,7 @@ How to use this script:
 
 1. Save this file in /etc/cron.d
 2. vim /etc/crontab
-3. Add the following: */15 *  * * *  root /etc/cron.d/piler-backup.sh
+3. Add the following: 59 23  * * *  root /etc/cron.d/piler-backup.sh
 4. chmod +x /etc/cron.d/piler-backup.sh
 5. DONE!
 
